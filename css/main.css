@@ -1,12 +1,12 @@
 html{
- 
-    
+  
 }
 
 header{
+    margin: 0;
     font-size: 3rem;
     color: #181e1e;
-    font-family:monospace;
+    font-family:sans-serif;
     text-align: center;
     border-radius: 5px;
     width: 100%;
@@ -22,9 +22,10 @@ body{
 }
 
 h1{
+
     text-align: center;
     color: black;
-    font-family:monospace;
+    font-family:sans-serif;
     padding-top: 1rem;
     padding-bottom: 1rem;
     box-shadow: 3px 3px 10px 1px #000000;
@@ -34,7 +35,7 @@ h2{
     font-size: 25px;
     text-align: center;
     color: black;
-    font-family:monospace;
+    font-family:sans-serif;
     padding-top: 1rem;
     padding-bottom: 1rem;
     box-shadow: 3px 3px 10px 1px #000000;
@@ -86,13 +87,7 @@ li{
 
 @media screen and (max-width:600px, max-height:600px){
     
-    header{
-        font-size: 20px;
-    }
-    body{
-        padding: 1rem;
-        
-    }
+
 }
 
 @media screen and (min-width:600px){

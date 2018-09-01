@@ -1,24 +1,50 @@
-
-
 #map {
-       height: 100%;
+       height: 95%;
       }
-/* Optional: Makes the sample page fill the window. */
-html, body {
+html {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0px;  
 }
 
 header{
+    margin:0;
     font-size: 3rem;
     color: #181e1e;
-    font-family:monospace;
+    font-family:sans-serif;
     text-align: center;
     border-radius: 5px;
     width: 100%;
     height: auto;
     border-bottom: solid;
-    background-image: linear-gradient(to top right, grey, white);
+    background-image: linear-gradient(to top right, lightgrey, white);
+}
+
+body{
+    margin: 0;
+    padding:1px;
+    width:auto;
+    height: 100%;
+    border-radius:5px;
+}
+h2{
+    font-size:20px;
+    margin: 0;
+    color: #181e1e;
+    font-family:sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: solid;
+    background-image: linear-gradient(to top right, lightgrey, white);
+}
+
+a:any-link{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    background-color: grey;
+    border-radius: 3px;
     
 }
