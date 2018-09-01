@@ -4,12 +4,14 @@ function initMap() {
     document.getElementById('map'),
     {
       center: {
-        lat: -12.37,
+        lat:  -12.37,
         lng: 130.87
       },
       zoom: 12
      }
   );
+
+
   var marker = null;
 navigator.geolocation.getCurrentPosition(
   function(position) {
@@ -47,3 +49,12 @@ function moveMarker(marker, lat, lng) {
   marker.setPosition({lat: lat, lng: lng});
   return marker;
 }
+
+//var locations = [
+//    ['Charles Darwin University', -12.374604, 130.869585],
+//    ['Fannie bay', -12.440389, 130.839916],
+//    ['Darwin City Edge', -12.455033, 130.836709],
+//  ];
+
+
+
