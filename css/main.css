@@ -1,0 +1,34 @@
+html{
+ 
+    
+}
+
+header{
+    font-size: 50px;
+    color: #181e1e;
+    font-family:monospace;
+    text-align: center;
+    border-radius: 5px;
+    width: 37rem;
+}
+
+body{
+    background-image: linear-gradient(to top right, black, grey, white);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    width: ;
+    height: 35rem;
+}
+
+@media screen and (max-width:400px){
+    
+    header{
+        width: 20rem;
+        font-size: 40px;
+    }
+    body{
+        padding: 1rem;
+        
+        
+    }
+}
