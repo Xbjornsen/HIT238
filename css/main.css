@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
     padding: 2rem;
     width: ;
-    height: 35rem;
+    height: 39rem;
 }
 
 h1{
@@ -55,8 +55,6 @@ a:hover{
     }
     
     body{
-        padding: 1rem;
-        
-        
+        padding: 1rem;                
     }
 }
