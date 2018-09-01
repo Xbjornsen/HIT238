@@ -11,7 +11,7 @@ header{
     border-radius: 5px;
     width: 100%;
     height: auto;
-    
+    border-bottom: solid;
 }
 
 body{
@@ -22,6 +22,16 @@ body{
 }
 
 h1{
+    text-align: center;
+    color: black;
+    font-family:monospace;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 3px 3px 10px 1px #000000;
+    
+}
+h2{
+    font-size: 25px;
     text-align: center;
     color: black;
     font-family:monospace;
@@ -53,23 +63,43 @@ a:hover{
     
 }
 
+.lyst{
+    list-style-type: square;
+}
+ul { 
+    display:table; 
+    margin:0 auto;
+}
+
+li{
+    line-height: 2rem;
+}
+.home, a:link{
+    text-align: center;
+    font-size: 25px;
+    padding-top:0px;
+    text-decoration: none;
+   
+}
 
 @media screen and (max-width:600px, max-height:600px){
     
     header{
         font-size: 20px;
     }
-    
     body{
         padding: 1rem;
         
     }
-
 }
 
 @media screen and (min-width:600px){
     img{
         display: none;
+    }
+    
+    h1, h2{
+        box-shadow: none;
     }
 
 }
