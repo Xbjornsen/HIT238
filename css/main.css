@@ -48,13 +48,14 @@ a:hover{
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px, max-height:600px){
     
     img{
         padding-top:2rem;
     }
     
     body{
-        padding: 1rem;                
+        padding: 1rem;
+        
     }
 }
