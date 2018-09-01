@@ -69,10 +69,12 @@ a:hover{
 ul { 
     display:table; 
     margin:0 auto;
+
 }
 
 li{
     line-height: 2rem;
+    list-style-type: none;
 }
 .home, a:link{
     text-align: center;
@@ -99,7 +101,9 @@ li{
     }
     
     h1, h2{
+        
         box-shadow: none;
+        
     }
 
 }
