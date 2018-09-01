@@ -1,4 +1,4 @@
-  var neighborhoods = [
+  var chargeStations = [
     {lat: -12.374604, lng:  130.869585},
     {lat: -12.440389, lng:  130.839916},
     {lat: -12.455033, lng:  130.836709},
@@ -15,8 +15,8 @@
   }
 
 
-for (var i = 0; i < neighborhoods.length; i++) {
-  addMarkerWithTimeout(neighborhoods[i], i * 200);
+for (var i = 0; i < chargeStations.length; i++) {
+  addMarkerWithTimeout(chargeStations[i], i * 200);
 }
 
 
