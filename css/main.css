@@ -9,7 +9,6 @@ header{
     font-family:monospace;
     text-align: center;
     border-radius: 5px;
-    width: 37rem;
 }
 
 body{
@@ -20,12 +19,41 @@ body{
     height: 35rem;
 }
 
-@media screen and (max-width:400px){
+h1{
+    text-align: center;
+    color: black;
+    font-family:monospace;
+    padding-top: 2rem
+}
+
+.img-container{
+    margin: 1rem;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+}
+
+a:any-link{
+    color: black;
+}
+
+a:hover{
+    background-color: grey;
+    border-radius: 3px;
     
-    header{
-        width: 20rem;
-        font-size: 40px;
+}
+
+
+@media screen and (max-width:600px){
+    
+    img{
+        padding-top:2rem;
     }
+    
     body{
         padding: 1rem;
         
