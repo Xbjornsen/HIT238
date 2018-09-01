@@ -4,37 +4,43 @@ html{
 }
 
 header{
-    font-size: 50px;
+    font-size: 3rem;
     color: #181e1e;
     font-family:monospace;
     text-align: center;
     border-radius: 5px;
+    width: 100%;
+    height: auto;
+    
 }
 
 body{
     background-image: linear-gradient(to top right, black, grey, white);
     background-repeat: no-repeat;
     padding: 2rem;
-    width: ;
-    height: 40rem;
+    height: 50rem;
 }
 
 h1{
     text-align: center;
     color: black;
     font-family:monospace;
-    padding-top: 2rem
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 3px 3px 10px 1px #000000;
+    
 }
 
 .img-container{
-    margin: 1rem;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
-    padding-top: 0.5rem;
+    box-shadow: 3px 3px 10px 1px #000000;
 }
 
 a:any-link{
@@ -50,12 +56,20 @@ a:hover{
 
 @media screen and (max-width:600px, max-height:600px){
     
-    img{
-        padding-top:2rem;
+    header{
+        font-size: 20px;
     }
     
     body{
         padding: 1rem;
         
     }
+
+}
+
+@media screen and (min-width:600px){
+    img{
+        display: none;
+    }
+
 }
