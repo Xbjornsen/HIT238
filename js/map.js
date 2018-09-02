@@ -7,7 +7,7 @@ function initMap() {
         lat: -12.37,
         lng: 130.87
       },
-      zoom: 12
+      zoom: 5
      }
   );
   var marker = null;
