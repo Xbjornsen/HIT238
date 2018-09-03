@@ -1,8 +1,8 @@
 # HIT238
-My Name is Xavier and I am studying BIT.
+Used this with marker drop and animations
+https://developers.google.com/maps/documentation/javascript/examples/icon-simple
 
-## This is the first heading
-This is the information on the first heading
 
-###  This is the second heading
-This is the information on the second heading 
+Code pen for some help with map init
+https://codepen.io/elvey/pen/BPJppR
+
