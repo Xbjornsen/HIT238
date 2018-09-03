@@ -12,4 +12,29 @@ function initMap() {
       zoom: 12
      }
   );
+  var marker = null;
+navigator.geolocation.getCurrentPosition(
+  function(position) {
+    marker = 
+    addMarker(position.coords.latitude, position.coords.longitude);
+    }
+  );
+  navigator.geolocation.watchPosition(
+  function(position) {
+    moveMarker(
+      marker,
+      position.coords.latitude, 
+      position.coords.longitude);
+    }
+  );
+}
+function addMarker(lat, lng) {
+  var marker = new google.maps.Marker({position: {lat: lat, lng: lng}, map: map});
+  return marker;
+}
+
+
+function moveMarker(marker, lat, lng) {
+  marker.setPosition({lat: lat, lng: lng});
+  return marker;
 }
