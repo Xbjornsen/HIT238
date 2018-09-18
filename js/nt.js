@@ -58,4 +58,4 @@ function moveMarker(marker, lat, lng) {
 
 mark.setMap(map);
 
-'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjuhumC_J3dAhUOdt4KHSQtAUIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F202593%2Fcar_charge_charging_station_icon&psig=AOvVaw3dgRftD6fAdAypNnHS2xBF&ust=1536034038249305'
+
