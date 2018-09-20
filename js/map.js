@@ -43,6 +43,7 @@ function moveMarker(marker, lat, lng) {
 //    ['Charles Darwin University', -12.374604, 130.869585],
 //    ['Fannie bay', -12.440389, 130.839916],
 //    ['Darwin City Edge', -12.455033, 130.836709],
+
 //  ];
 
 
